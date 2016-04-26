@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="基本设置" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="music"
+            android:summaryOff="关闭"
+            android:summaryOn="播放"
+            android:title="背景音乐设置" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sound"
+            android:summaryOff="音效关"
+            android:summaryOn="音效开"
+            android:title="游戏音乐设置" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="显示" >
+        <ListPreference
+            android:dialogTitle="ListPreference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entriesvalue_list_preference"
+            android:key="textsize"
+            android:defaultValue="25"
+            android:title="字体大小" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

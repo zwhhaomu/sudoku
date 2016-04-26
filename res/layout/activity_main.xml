@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#005566"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mystring" />
+
+    <Button
+        android:id="@+id/gamebeging"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gamebeging"
+        android:textSize="25px" />
+
+    <Button
+        android:id="@+id/gamecontinue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gamecontinue"
+        android:textSize="25px" />
+
+    <Button
+        android:id="@+id/gamesetting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gamesetting"
+        android:textSize="25px" />
+
+    <Button
+        android:id="@+id/gameexit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gameover"
+        android:textSize="25px" />
+
+</LinearLayout>
